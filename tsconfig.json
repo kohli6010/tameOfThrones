@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "target": "ES6",
+        "module": "commonjs",
+        "rootDir": ".",
+        "outDir": "./build",
+        "esModuleInterop": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    }
+}
