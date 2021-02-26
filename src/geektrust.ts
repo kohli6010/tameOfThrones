@@ -22,3 +22,6 @@ export default class Main {
 		return response;
 	}
 }
+
+const run = new Main(process.argv[2]);
+console.log(run.main());
