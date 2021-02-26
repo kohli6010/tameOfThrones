@@ -1,13 +1,13 @@
 import { Controller } from '../controller/controller';
 
-export class FileProcessor { 
+export default class FileProcessor { 
 	file!: string;
 	controller: Controller;
 	constructor() { 
 		this.controller = new Controller();
 	}
 
-	setFile(file: string) { 
+	setFile(file: string) {
 		this.file = file;
 	}
 

@@ -4,7 +4,7 @@
 	"description": "Family Problem",
 	"main": "geektrust.js",
 	"scripts": {
-		"postinstall": "npx tsc",
+		"install": "npx tsc",
 		"start": "nodemon src/geektrust.ts",
 		"test": "mocha --require ts-node/register --watch-extension ts test/**/*.spec.ts"
 	},
